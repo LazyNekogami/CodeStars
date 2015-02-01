@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class myClass {
+public class task2 {
 	static final char[] eng = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i',
 			'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
 			'w', 'x', 'y', 'z' };
@@ -20,7 +20,7 @@ public class myClass {
 		int i = 0;
 
 		try (BufferedReader reader = new BufferedReader(new FileReader(
-				"D:\\65.result"))) {
+				"D:\\3.result"))) {
 			// while (true) {
 			String str = reader.readLine();
 			// if (str == null)

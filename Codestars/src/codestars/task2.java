@@ -21,10 +21,8 @@ public class task2 {
 
 		try (BufferedReader reader = new BufferedReader(new FileReader(
 				"D:\\3.result"))) {
-			// while (true) {
+
 			String str = reader.readLine();
-			// if (str == null)
-			// break;
 			String[] words = str.split(" ");
 			print(Integer.toString(words.length));
 			for (String word : words) {
@@ -35,9 +33,7 @@ public class task2 {
 					result = result + eng1.charAt(i);
 					i = 0;
 				}
-
-				// }
-				// str = null;
+				
 			}
 			System.out.println(result);
 

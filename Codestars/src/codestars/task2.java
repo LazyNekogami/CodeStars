@@ -20,7 +20,7 @@ public class task2 {
 		int i = 0;
 
 		try (BufferedReader reader = new BufferedReader(new FileReader(
-				"D:\\3.result"))) {
+				"67.result"))) {
 
 			String str = reader.readLine();
 			String[] words = str.split(" ");
